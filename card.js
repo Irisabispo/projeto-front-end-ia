@@ -86,6 +86,12 @@ export function createCard(item) {
         card.classList.remove('origin-left');
         card.classList.remove('origin-right');
     });
+card.addEventListener('click', (e) => {
+  
+    if (e.target.closest('.btn-icon')) return;
 
+    
+    console.log('Card clicado:', item);
+});
     return card;
 }
