@@ -1,5 +1,5 @@
-import { categories } from 'data.js';
-import { createCarousel } from 'carousel.js';
+import { categories } from './data.js';
+import { createCarousel } from './carousel.js';
 
 document.addEventListener('DOMContentLoaded', () => {
 
